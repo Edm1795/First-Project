@@ -10,8 +10,8 @@
 	color:white;
 }
 
-.nav-link{
-	color:green;
+body{
+	background-color:#ededed;
 }
 /* --- Previous style for colouring the navbar --> .bg-light{
 	background-color:#803476 !important;
@@ -28,14 +28,7 @@
 }
 
 
-}
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light 
-.navbar-nav .active > .nav-link, .navbar-light .navbar-nav 
-.nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-	color: white;
-
-} 
 
 /* "Menu" at top centre of page */
 #menu-heading{
@@ -49,7 +42,7 @@
 .food-type-sub-heading{
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	}
 
@@ -57,6 +50,7 @@
 .food-description{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight:normal;
+	font-size: 25px;
 	}
 
 
@@ -68,3 +62,11 @@
 					.navbar-toggler  {
 						display:none;
 					}
+
+				}
+				/* --- Media Queries:  Small size and Lower--- */
+				@media(max-width: 567px){
+					#menu-break{
+						display:none;
+					}
+				}
